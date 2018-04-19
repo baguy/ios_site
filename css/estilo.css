@@ -1,0 +1,152 @@
+/* 
+    Created on : 17/04/2018, 20:21:57
+    Author     : 1600036
+*/
+
+body.corpo_home, body.corpo_recursos, body.corpo_galeria, body.corpo_contato{
+    font-family: sans-serif;
+    margin-left: 300px;
+    width: 900px;
+    background-color: white;
+}
+/*CABEÇALHO -- LOGO */
+header#cabecalho {
+    height: 150px;
+    display: block;
+}
+img#logo{
+    margin: 44px 0 0 -10px;
+    float: left;
+}
+header#cabecalho h1{
+    text-align:left;
+    font-size: 12pt;
+    color: #78909c;
+    margin: 115px 0 0 -10px;
+    padding-left: 20px;
+    float: left;
+}
+/*CABEÇALHO -- BARRA DE APLICATIVOS*/
+div#apps{
+    width: 900px;
+    height: 150px;
+    float: left;
+    display: inline;
+    margin-top: 20px; 
+    border: 1px solid #606060;
+}
+div#apps h2{
+    font-size: 10pt;
+    color: #78909c;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+div#apps p{
+    font-size: 9pt;
+    overflow: auto;
+    padding-right: 10px;
+}
+div#apps img{
+    padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 3px;
+    float: left;
+}
+div#div_mapas{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+}
+div#div_facetime{
+    width: 250px;
+    height: 150px;
+    margin-left: 325px;
+    position: absolute;
+}
+div#div_passbook{
+    width: 250px;
+    height: 150px;
+    margin-left: 650px;
+    position: absolute;
+}
+/*MENU*/
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    float: left;
+    list-style-type: none;
+    width: 900px;
+    margin-bottom: 30px;
+}
+nav#menu ul li{
+    display: inline-block;
+    margin-left: -40px;
+    margin-right: 100px;
+}
+nav#menu ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav#menu ul li a:hover{
+    font-weight: 900;
+    color: black;
+}
+/*LINK MENU-NAVEGAÇÃO DA PÁGINA ATUAL*/
+body.corpo_home a.home, body.corpo_recursos a.recursos, body.corpo_galeria a.galeria, body.corpo_contato a.contato{
+    font-weight: 900;
+    color: black
+}
+/*CONTEÚDO*/
+div#conteudo{
+    width: 700px;
+    height: 600px;
+}
+div#conteudo p{
+    padding-right: 100px;
+}
+div#conteudo h1{
+    padding-bottom: 30px;
+}
+/*LATERAL*/
+div#div_lateral{
+    border: 1px solid #606060;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 150px;
+    height: 380px;
+    margin-top: -330px;
+    float: right;
+    margin-bottom: 50px;
+}
+div#div_lateral h2{
+    color: #606060;
+    font-size: 10pt;
+    overflow: auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+div#div_lateral p{
+    font-size: 9pt;
+    padding-left: 5px;
+}
+div#div_lateral img{
+    float: left;
+}
+/*RODAPÉ*/
+footer#rodape{
+    clear: both;
+    border: 1px solid #606060;
+    height: 100px;
+    width: 900px;
+    margin-top: 50px;
+}
+footer#rodape p, footer#rodape a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 9pt;
+    padding-top: 25px;
+    color: black;
+}

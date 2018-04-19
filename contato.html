@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistema Operacional da Apple - iOS 11</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/recursocss.css"/>
+        <style>
+            label.alignright{
+                width: 50px;
+                display: inline-block;
+                text-align: right;
+                padding-right: 30px;
+            }
+            div#conteudo p{
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body class="corpo_contato"><!-- muda a cada página -->
+        <div id="corpo">
+            
+            <header id="cabecalho">
+                <img id="logo" alt="iOS 11 logo" src="imagens/logo.png"/>
+                    <h1> Seu iPad, iPhone e iPod Touch <br>
+                        agora sob nova direção</h1>
+                <div id="apps">
+                    <div id="div_mapas">
+                        <img id="img_mapas" alt="Mapas" src="imagens/icone-maps.png"/>
+                        <h2>Mapas</h2>
+                        <p>Totalmente desenvolvido pela Apple, o Mapas vai mudar a sua forma de ver o mundo.</p>
+                    </div> <!-- div_mapas -->
+                    <div id="div_facetime">
+                        <img id="img_facetime" alt="Facetime" src="imagens/icone-facetime.png"/>
+                        <h2>Facetime</h2>
+                        <p>O FaceTime funciona agora com redes celulares e Wi-Fi, para que você possa fazer e receber chamadas.</p>
+                    </div><!-- div_facetime -->
+                    <div id="div_passbook">
+                        <img id="img_passbook" alt="Passbook" src="imagens/icone-passbook.png"/>
+                        <h2>Passbook</h2>
+                        <p>O Passbook guarda seus cartões de embarque, cartões fidelidade, cupons de lojas e ingressos.</p>
+                    </div><!-- div_passbook -->     
+                </div><!-- apps -->
+                <nav id="menu">
+                    <ul>
+                        <li><a class="home" href="index.html">Home</a></li>
+                        <li><a class="recursos" href="recursos.html">Recursos</a></li>
+                        <li><a class="galeria" href="galeria.html">Galeria</a></li>
+                        <li><a class="contato" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav><!-- navegacao -->
+            </header> <!-- cabecalho -->
+                        
+            <div id="conteudo">
+                
+                <h1>Contato</h1>
+                <form action="recebe.html" method="GET">
+                    <p><label class="alignright" for="campoNome">Nome:</label> <input type="text" name="nome" id="campoNome" size="20"/></p>
+                    <p><label class="alignright" for="campoEstado">Estado: </label> 
+                     <select name="tEst" id="campoEstado">
+                        <optgroup label="A">
+                          <option value="ac">Acre</option> <option value="al">Alagoas</option> <option value="ap">Amapá</option> <option value="am">Amazonas</option>
+                        </optgroup>
+                        <optgroup label="B">
+                          <option value="ba">Bahia</option>
+                        </optgroup><optgroup label="C"><option value="ce">Ceará</option></optgroup>
+                        <optgroup label="D">
+                          <option value="df">Distrito Federal</option></optgroup>
+                        <optgroup label="E">
+                          <option value="es">Espirito Santo</option></optgroup>
+                        <optgroup label="G">
+                          <option value="go">Goiás</option></optgroup>
+                        <optgroup label="M">
+                          <option value="ma">Maranhão</option> <option value="ms">Mato Grosso do Sul</option> <option value="mt">Mato Grosso</option>
+                          <option value="mg">Minas Gerais</option></optgroup>
+                        <optgroup label="P">
+                          <option value="pa">Pará</option> <option value="pb">Paraíba</option> <option value="pr">Paraná</option>
+                          <option value="pe">Pernambuco</option> <option value="pi">Piauí</option>
+                        </optgroup>
+                        <optgroup label="R">
+                          <option value="rj">Rio de Janeiro</option> <option value="rn">Rio Grande do Norte</option>
+                          <option value="rs">Rio Grande do Sul</option> <option value="ro">Rondônia</option> <option value="rr">Roraima</option>
+                        </optgroup><optgroup label="S">
+                          <option value="sc">Santa Catarina</option> <option value="sp" selected>São Paulo</option> <option value="se">Sergipe</option>
+                        </optgroup><optgroup label="T">
+                        <option value="to">Tocantins</option></optgroup>
+                     </select></p>
+                     <p><label class="alignright" for="campoMsg">Mensagem:</label><br>
+                         <textarea name="textoMensagem" id="campoMsg" cols="32" rows="5"></textarea>
+                     </p>
+                     <p><input type="checkbox" name="check" id="campoCheckbox" />
+                         <label for="campoOferta">Deseja receber ofertas de novos produtos?</label>
+                     </p>
+                     <input type="submit" value="Enviar">
+                </form>
+                
+            </div><!-- conteudo -->
+            
+            <div id="div_lateral">
+                <img alt="Facebook" src="imagens/icone-facebook.png"><h2>Facebook</h2>
+                <p>Agora ficou ainda mais fácil interagir com a maior rede social do mundo. Você nem precisa sair do seu app para isso. Compartilhe uma foto no Facebook direto do app Câmera ou do Fotos. Informe a sua localização direto do Mapas. Comente aquela pontuação direto do Game Center.</p>
+            </div><!-- div_lateral -->
+            
+            <footer id="rodape">
+                <p>
+                    Apple - Todos os Direitos Reservados <br>
+                    <a href="https://github.com/baguy">Mayra Dantas Bueno</a>
+                </p>
+                </footer>
+        </div><!-- corpo -->
+    </body>
+</html>
